@@ -1,6 +1,5 @@
 // TemporaryClassObjects.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
-
 #include <iostream>
 #include "TempClassExample.h"
 #include "TempObjectsAndReturnByValue.h"
@@ -24,14 +23,12 @@ int main()
     std::cout << "implictly converting {5,6} into a temporary\n";
     printValues({ 5,6 });
 
-   
-    std::cout << "\nre1()\n";
+       std::cout << "\nret1()\n";
     printValues(ret1());
     std::cout << "\nret2()\n";
     printValues(ret2());
-    std::cout << "\nre3()\n";
+    std::cout << "\nret3()\n";
     printValues(ret3());
-
-
+    
     return 0;
 }

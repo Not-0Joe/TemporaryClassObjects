@@ -26,6 +26,5 @@ private:
 	int m_y = 0;
 };
 
-
 // non member funcion prototype
-void printValues(const MakeMeTemp& m);
+// void printValues(const MakeMeTemp& m);
